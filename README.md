@@ -1,5 +1,6 @@
 # log-archive
-Shell script to archive log directory. This script should be scheduled using cron.
+Shell script/Utility to archive log directory.
+This script should be scheduled using cron.
 
 __Command:__ 0 0 * * * <GIT_REPO_LOCATION>/backup_log.sh <LOG_FOLDER_LOCATION> >> cron.log 2>&1
 
